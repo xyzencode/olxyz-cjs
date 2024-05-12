@@ -1,0 +1,30 @@
+{
+  "name": "olxyz",
+  "version": "1.0.0",
+  "description": "Node JS WhatsApp Bot Use CJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "pm2:start": "pm2 start index.js --name olxyz",
+    "pm2:stop": "pm2 stop olxyz",
+    "pm2:delete": "pm2 delete olxyz"
+  },
+  "keywords": [
+    "nodejs",
+    "pm2",
+    "nodemon",
+    "bot wa",
+    "bot whatsapp",
+    "xyzen",
+    "xyzendev"
+  ],
+  "author": "Muhammad Adriansyah",
+  "license": "MIT",
+  "dependencies": {
+    "@xyzendev/baileys": "^6.7.0-rc",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
