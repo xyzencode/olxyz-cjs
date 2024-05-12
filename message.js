@@ -1,3 +1,11 @@
+/**  
+ *  Created By: Muhammad Adriansyah
+ *  Description: This is the main file for handling message event
+ *  Created At: 12/05/2024
+ *  Last Modified: 12/05/2024
+ * 
+*/
+
 const { appenTextMessage } = require("./lib/serialize");
 const chalk = require("chalk");
 

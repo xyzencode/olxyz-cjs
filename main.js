@@ -1,5 +1,12 @@
-require('dotenv').config()
+/**  
+ *  Created By: Muhammad Adriansyah
+ *  Description: This is the main file for handling message event
+ *  Created At: 12/05/2024
+ *  Last Modified: 12/05/2024
+ * 
+*/
 
+require('dotenv').config()
 const { makeInMemoryStore, useMultiFileAuthState, fetchLatestWaWebVersion, default: makeWASocket, PHONENUMBER_MCC, jidNormalizedUser, makeCacheableSignalKeyStore, Browsers, delay, DisconnectReason } = require("@xyzendev/baileys");
 const pino = require("pino");
 const fs = require("fs");
