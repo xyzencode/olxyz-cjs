@@ -1,5 +1,5 @@
 {
-  "name": "olxyz",
+  "name": "olxyz-cjs",
   "version": "1.0.0",
   "description": "Node JS WhatsApp Bot Use CJS",
   "main": "index.js",
